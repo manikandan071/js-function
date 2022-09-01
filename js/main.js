@@ -39,9 +39,9 @@ function ams(x){
 	while(x>0){
 		rem=x%10;
 		y=y+(rem*rem*rem);
-		x=Math.floor(x%10);
+		x=Math.floor(x/10);
 	}
-	if(y=z){
+	if(y==z){
 		return "armstrong";
 		}
 		else{
